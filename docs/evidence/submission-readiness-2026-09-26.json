@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-09-26T11:07:12.906Z",
+  "verdict": {
+    "productRuntime": "ready",
+    "submissionPackage": "blocked_on_source_publication"
+  },
+  "release": {
+    "url": "https://trustgate-lime.vercel.app",
+    "version": "0.4.0",
+    "deploymentId": "dpl_AgsYp82KyGMdYtMfJY9cn5WhNVGx",
+    "deploymentState": "READY",
+    "contract": "0xB57fE57B3c4EECd29b8544EB54e15B8368cF253D",
+    "contractVersion": "0.3.0",
+    "network": "studionet",
+    "chainId": 61999,
+    "clearanceCount": 2
+  },
+  "checks": {
+    "genvmLint": "passed",
+    "genvmMethods": 11,
+    "genvmTypeErrors": 0,
+    "genvmTypeWarnings": 0,
+    "directContractTestsPassed": 29,
+    "webApiAgentTestsPassed": 39,
+    "fiveValidatorIntegrationTestsPassed": 3,
+    "productionBuild": "passed",
+    "productionDependencyVulnerabilities": 0,
+    "credentialMaterialFound": false,
+    "productionVerifier": "passed",
+    "vercelErrorsPrevious24Hours": 0,
+    "browserContentCharacters": 1523,
+    "browserInteractiveControls": 24,
+    "browserErrorOverlay": false,
+    "browserConsoleErrors": 0,
+    "browserPageErrors": 0,
+    "browserPendingResources": 0,
+    "axeViolations": 0,
+    "mobileViewportWidth": 390,
+    "mobileHorizontalOverflow": false
+  },
+  "submissionBlockers": [
+    "TrustGate is not tracked in a Git repository and has no source URL.",
+    "The exact submission portal and its required fields were not supplied."
+  ],
+  "conditionalItem": "A top-level project license is absent; add one if required by the target submission.",
+  "browserScreenshot": "submission-readiness-2026-09-26.png"
+}

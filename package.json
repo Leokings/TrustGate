@@ -1,0 +1,40 @@
+{
+  "name": "trustgate",
+  "version": "0.4.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test:web": "vitest run",
+    "contract:lint": "genvm-lint check contracts/TrustGate.py --json",
+    "contract:typecheck": "genvm-lint typecheck contracts/TrustGate.py --json",
+    "contract:test": "pytest tests/direct -q",
+    "contract:sim": "python tests/run_glsim.py --port 4000 --validators 5 --no-browser",
+    "contract:test:integration": "gltest tests/integration -v -s --network localnet",
+    "contract:test:studionet": "gltest tests/live -v -s --network studionet",
+    "verify:production": "node scripts/verify-production.mjs",
+    "verify": "npm run contract:lint && npm run contract:typecheck && npm run contract:test && npm run test:web && npm run build"
+  },
+  "dependencies": {
+    "@remotion/player": "4.0.506",
+    "genlayer-js": "1.1.8",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "remotion": "4.0.506",
+    "viem": "2.55.11"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "typescript": "5.9.3",
+    "vite": "8.2.2",
+    "vitest": "5.0.1"
+  }
+}

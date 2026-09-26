@@ -1,0 +1,70 @@
+{
+  "auditedAt": "2026-09-24T20:55:10Z",
+  "url": "https://trustgate-lime.vercel.app",
+  "deploymentId": "dpl_AgsYp82KyGMdYtMfJY9cn5WhNVGx",
+  "result": "passed_with_external_wallet_boundary",
+  "navigation": {
+    "headerCheck": "passed",
+    "headerHowItWorks": "passed",
+    "headerAgentApi": "passed",
+    "headerBrandHome": "passed",
+    "heroCheckTransaction": "passed",
+    "heroThreeStepFlow": "passed",
+    "footerBrandHome": "passed"
+  },
+  "wallet": {
+    "missingProviderError": "passed",
+    "errorVisibleWithoutScrollingDesktop": "passed",
+    "errorVisibleWithoutScrollingMobile": "passed",
+    "errorDismiss": "passed",
+    "injectedEip1193Connect": "passed",
+    "switchToStudioNet": "passed",
+    "addStudioNetOn4902": "passed",
+    "accountChanged": "passed",
+    "disconnect": "passed",
+    "clearPreservesConnectedAccount": "passed",
+    "thirdPartyWalletApprovalWindow": "not_available_in_automated_host"
+  },
+  "policies": {
+    "conservativePointer": "passed",
+    "balancedPointer": "passed",
+    "experimentalPointer": "passed",
+    "keyboardSelection": "passed",
+    "ariaPressedState": "passed",
+    "previewUpdates": "passed"
+  },
+  "validation": {
+    "missingSender": "passed",
+    "missingDestination": "passed",
+    "invalidChainId": "passed",
+    "invalidNonce": "passed",
+    "shortIntent": "passed",
+    "excessNativeDecimals": "passed",
+    "malformedCalldata": "passed",
+    "invalidEvidenceUrl": "passed",
+    "validFormWithoutWalletFailsClosed": "passed",
+    "busyStateClearsAfterFailure": "passed"
+  },
+  "reset": {
+    "disconnectedForm": "passed",
+    "connectedForm": "passed"
+  },
+  "publicLinks": {
+    "health": "passed",
+    "proofTwo": "passed",
+    "openapi": "passed"
+  },
+  "motion": {
+    "normalMotionLoop": "passed",
+    "reducedMotionStaticFrame": "passed"
+  },
+  "responsiveAndAccessibility": {
+    "desktopViewport": "passed",
+    "mobile390x844": "passed",
+    "horizontalOverflow": "none",
+    "axeViolations": 0,
+    "pageErrors": 0,
+    "consoleMessages": 0
+  },
+  "externalBoundaryNote": "The browser host cannot approve a real third-party wallet popup. Wallet-owned UI behavior was verified with an injected EIP-1193 provider; the real SDK and contract path was verified separately by two finalized StudioNet writes."
+}

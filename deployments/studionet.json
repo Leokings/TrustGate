@@ -1,0 +1,38 @@
+{
+  "network": "studionet",
+  "chainId": 61999,
+  "rpcUrl": "https://studio.genlayer.com/api",
+  "contractAddress": "0xB57fE57B3c4EECd29b8544EB54e15B8368cF253D",
+  "contractVersion": "0.3.0",
+  "verdictSchemaVersion": "TRUSTGATE_CLEARANCE_V2",
+  "frontendVersion": "0.4.0",
+  "apiVersion": "0.4.0",
+  "configDigest": "cf07afa9b439bb40181d07395b7c1bf492caa7ddaf82c72e72369f54dceb2f29",
+  "contractSourceSha256": "0c80364246ab04f00a1ec19c9e2f511644fdc13fc233105052abfd4bdd7af333",
+  "deploymentTransactionHash": "0x8c60379eed5c35ae1ff21c6dd820c8672e23429dd83a4673f0e25ba609225913",
+  "deployer": "0x797d3b25fb2cca0ff93f60df1910267f3822d655",
+  "deployedAt": "2026-09-24T19:33:11.003852Z",
+  "supersedes": "0x3Da4686460109006510F1830fFa53faBC48958e6",
+  "frontendUrl": "https://trustgate-lime.vercel.app",
+  "frontendDeploymentId": "dpl_AgsYp82KyGMdYtMfJY9cn5WhNVGx",
+  "immutableFrontendUrl": "https://trustgate-r00whyv5j-leokings588-5902s-projects.vercel.app",
+  "verifiedAt": "2026-09-24T20:55:10Z",
+  "proofs": {
+    "unlimitedApprovalBlock": {
+      "clearanceId": 1,
+      "decision": "BLOCK",
+      "transactionNonce": 7,
+      "transactionHash": "0x70dc3577e83d50cf0a7efb33c31cc4bc03a6995cc103f8638ee370c7e697a628",
+      "transactionDigest": "0a292dc892f0695a40c72ef5b275622e402ab5bb7fa9d7c853bf26345677b14b",
+      "clearanceDigest": "2f8bfe57c1d759fc173905ba611dc5217b7d97bfa8481406acc37191f55361a8"
+    },
+    "usdcEvidenceAllow": {
+      "clearanceId": 2,
+      "decision": "ALLOW",
+      "transactionNonce": 7,
+      "transactionHash": "0x959e242bf2c5ce24412a9290780e8d85e6b45d99559fb0a31495402912d90a4c",
+      "transactionDigest": "9a88d96e46c4f814d56a1e77681cbc10e4abd9c6e99908fcc88cd5c876d0f054",
+      "clearanceDigest": "227bf8c842de86b705a6723ca6a28548071fe1185ab15a25df7c33322725c009"
+    }
+  }
+}

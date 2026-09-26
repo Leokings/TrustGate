@@ -1,0 +1,56 @@
+{
+  "auditedAt": "2026-09-24T20:55:10Z",
+  "url": "https://trustgate-lime.vercel.app",
+  "deploymentId": "dpl_AgsYp82KyGMdYtMfJY9cn5WhNVGx",
+  "frontendVersion": "0.4.0",
+  "contract": "0xB57fE57B3c4EECd29b8544EB54e15B8368cF253D",
+  "desktopViewport": [1440, 1200],
+  "mobileViewport": [390, 844],
+  "checks": {
+    "accessibility": {
+      "axeVersion": "4.12.1",
+      "violations": 0,
+      "passes": 39,
+      "incompleteRules": 1,
+      "note": "Axe could not calculate contrast through the page background gradient; it reported no failing nodes."
+    },
+    "consoleMessages": 0,
+    "pageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "walletAlertVisibleDesktop": true,
+    "walletAlertVisibleMobile": true,
+    "uiControlMatrix": "passed_with_external_wallet_boundary",
+    "remotionNormalMotion": "moving_loop_observed",
+    "remotionReducedMotion": "static_complete_frame_observed",
+    "vitals": {
+      "ttfbMs": 97.8,
+      "fcpMs": 1284,
+      "lcpMs": 1284,
+      "cls": 0.0,
+      "inp": null
+    }
+  },
+  "scenarios": {
+    "unlimitedApproval": {
+      "accountNonce": "7",
+      "decision": "BLOCK",
+      "actionKind": "ERC20_APPROVE",
+      "summary": "The transaction grants an effectively unlimited token allowance."
+    },
+    "finiteTransfer": {
+      "accountNonce": "7",
+      "decision": "READY FOR CONSENSUS",
+      "actionKind": "ERC20_TRANSFER"
+    }
+  },
+  "screenshots": [
+    "production-home-v0.4.0.png",
+    "production-block-v0.4.0.png",
+    "production-consensus-ready-v0.4.0.png",
+    "production-mobile-home-v0.4.0.png",
+    "production-mobile-block-v0.4.0.png",
+    "production-mobile-api-v0.4.0.png",
+    "production-wallet-alert-v0.4.0.png",
+    "production-mobile-wallet-alert-v0.4.0.png"
+  ]
+}

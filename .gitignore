@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.env.local
+.pytest_cache/
+.vercel_python_packages/
+__pycache__/
+artifacts/
+*.log
+
+
+.vercel

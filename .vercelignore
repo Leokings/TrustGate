@@ -1,0 +1,13 @@
+.vercel/
+.vercel_python_packages/
+node_modules/
+dist/
+.pytest_cache/
+artifacts/
+contracts/
+tests/
+docs/
+requirements.txt
+pytest.ini
+gltest.config.yaml
+SECURITY.md

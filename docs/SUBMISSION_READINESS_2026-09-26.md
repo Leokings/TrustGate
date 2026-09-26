@@ -2,18 +2,19 @@
 
 ## Verdict
 
-**Product/runtime: READY. Submission package: NOT YET COMPLETE.**
+**Product/runtime: READY. Submission package: READY FOR PORTAL ENTRY.**
 
 The deployed application, public API, GenLayer contract reads, deterministic
 checks, five-validator simulation, production build, browser rendering, and
-security baseline all pass. The remaining blocker is source publication:
-`C:\Users\leoki\Genlayer\trustgate` is not a Git repository and the entire
-folder is currently untracked inside the parent `BackIt` repository. A
-submission that requests a GitHub URL cannot yet point to the TrustGate source.
+security baseline all pass. The complete source is published in the standalone
+public repository at https://github.com/Leokings/TrustGate under the MIT
+License.
 
-The exact submission portal or rules were not provided, so form-specific
-requirements such as a video, team profile, license, or character limits still
-need to be checked against the intended submission page.
+The target is the GenLayer Portal Project contribution form. Its required
+sections are project identity and tags, one-line summary, project description,
+first-time-user instructions, expected verification outcome, website and
+GitHub links, and at least one evidence URL. A YouTube or X demo video is
+optional.
 
 ## Product story
 
@@ -97,15 +98,9 @@ of two:
 
 ## Required before pressing Submit
 
-1. Publish the TrustGate source in a Git repository and obtain its GitHub URL.
-   Prefer a standalone `TrustGate` repository; otherwise explicitly commit the
-   `trustgate/` directory to the existing repository and ensure the submission
-   link opens this project directly.
-2. Provide the exact submission page or rules and check its required fields,
-   deadline, repository visibility, video requirements, and word limits.
-3. If the form requires an open-source license, choose one explicitly. The
-   contract has an MIT SPDX header, but the project currently has no top-level
-   `LICENSE` file and `package.json` does not declare a project license.
+1. Review the populated GenLayer Portal form.
+2. Complete the portal's reCAPTCHA.
+3. Confirm the final representational submission action.
 
 ## Recommended presentation upgrades
 
@@ -141,7 +136,7 @@ and reproducible contract, API, browser, and five-validator test evidence.
 
 **OpenAPI:** https://trustgate-lime.vercel.app/api/openapi
 
-**GitHub:** pending source publication
+**GitHub:** https://github.com/Leokings/TrustGate
 
 ## Known and accurately disclosed limits
 

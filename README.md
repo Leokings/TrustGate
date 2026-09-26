@@ -4,6 +4,8 @@ TrustGate is a policy-bound transaction clearance layer for people and autonomou
 
 Production dashboard: https://trustgate-lime.vercel.app
 
+Source: https://github.com/Leokings/TrustGate
+
 StudioNet contract: `0xB57fE57B3c4EECd29b8544EB54e15B8368cF253D`
 
 This repository is intentionally serverless and stateless:
